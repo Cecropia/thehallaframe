@@ -1,0 +1,16 @@
+# Blender v2.78 (sub 0) OBJ File: 'hall.blend'
+# www.blender.org
+mtllib good_samaritan.mtl
+o good_samaritan
+v -2.190093 2.930420 1.957159
+v -2.190091 1.010420 1.957159
+v -3.686093 2.930418 1.957160
+v -3.686091 1.010419 1.957160
+vt 0.0000 1.0000
+vt 0.0000 0.0000
+vt 1.0000 0.0000
+vt 1.0000 1.0000
+vn -0.0000 -0.0000 -1.0000
+usemtl good_samaritan
+s off
+f 1/1/1 2/2/1 4/3/1 3/4/1
