@@ -1,0 +1,12 @@
+# Blender MTL File: 'hall.blend'
+# Material Count: 1
+
+newmtl greek_bust
+Ns 90.196078
+Ka 1.000000 1.000000 1.000000
+Kd 0.385506 0.385506 0.385506
+Ks 0.376471 0.376471 0.376471
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

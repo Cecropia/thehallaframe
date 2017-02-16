@@ -1,0 +1,78 @@
+
+/* to display text in front of the aframe canvas*/
+a-scene{
+  z-index: -1;
+}
+
+/**/
+
+
+body{
+    background-color: #000;
+    /*margin: 0px;
+    overflow: hidden;*/
+	color: #fff;
+	font-family: 'Arial',
+}
+
+a:link, a:hover, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    position:absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.info{
+	font-family: Arial;
+	position:absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.info .company{
+    font-size: 2em;
+}
+
+.info .title{
+    font-size: 7em;
+    font-family: 'Poiret One', cursive;
+}
+
+.info .button{
+    font-weight: bold;
+    background-color: limegreen;
+    padding: 10px;
+    margin: 24px 0 0 0;
+}
+
+.info .instructions{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 600px) {
+    .info {
+      width: 60%
+    }
+
+    .info .company{
+        font-size: 1em;
+    }
+
+    .info .title{
+      font-size: 3em;
+    }
+
+}
