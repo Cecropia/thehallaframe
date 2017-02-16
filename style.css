@@ -38,6 +38,13 @@ a:link, a:hover, a:visited, a:active {
     justify-content: center;
     align-items: center;
     width: 500px;
+
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, -0%);
+
+
 }
 
 .info .company{
