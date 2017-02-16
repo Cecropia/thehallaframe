@@ -14,6 +14,8 @@ This project is a revamp of our original Hall project [(https://github.com/Cecro
 
 In this version, the main navigation is hand controls (Vive wands and Oculus Touch) to fire a teleporting ray to target where you want to be at.
 
+For desktop the traditional gaming controls are available (WASD, arrow keys and mouse).
+
 For mobile platforms (GearVR and Cardboard) Teleport Spots with a Gaze cursor are the way to jump to the several targets placed in the hall.
 
 
