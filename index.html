@@ -64,6 +64,13 @@
 
     <a-scene>
 
+      <a-entity camera
+                universal-controls
+                kinematic-body
+                jump-ability
+                position="0 1.764 0">
+      </a-entity>
+
       <a-entity mobile></a-entity>
 
       <a-entity light="type: directional; color: #FFF; intensity: 0.5" position="2 20 0"></a-entity>
@@ -93,6 +100,7 @@
                  loop="true"
                  position="1 1 10"></a-sound>
 
+        <a-asset-item id="hall_collision-obj" src="models/hall_collision.obj"></a-asset-item>
 
         <!-- floor -->
         <a-asset-item id="floor-obj" src="models/floor.obj"></a-asset-item>
@@ -236,6 +244,8 @@
       </a-assets>
 
       <a-sky color="#EEEEFF" material="src: #sky_sphere-texture"></a-sky>
+
+      <a-entity static-body obj-model="obj: #hall_collision-obj;" id="hall_collision"  material="opacity: 0.0"></a-entity>
 
       <a-entity obj-model="obj: #floor-obj;" material="src: #floor-texture; normalMap: #floor_normal-texture; metalness: 0.6" id="floor"></a-entity>
       <a-entity obj-model="obj: #hall-obj;" material="src: #hall-texture" id="hall"></a-entity>
