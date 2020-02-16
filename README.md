@@ -1,5 +1,7 @@
 # The Hall VR
 
+[Click here](http://virtualmuseum-quadnix.engine.quadnix.com) to play this plugin in Quadnix Plugins.
+
 
 ![hallvr1](/screenshots/thehall1.jpg)
 
