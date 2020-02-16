@@ -1,7 +1,6 @@
 # The Hall VR
 
-To play this plugin, visit [Quadnix Plugins](https://plugins.quadnix.com)
-or [click here](https://plugins.quadnix.com/launch?author=quadnix&id=vr-museum).
+[Click here](http://virtualmuseum-quadnix.engine.quadnix.com) to play this plugin in Quadnix Plugins.
 
 
 ![hallvr1](/screenshots/thehall1.jpg)
